@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Something Something</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ FLOATING HEARTS BACKGROUND ============ -->
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <!-- ============ SPARKLE CURSOR ============ -->
+  <div id="sparkleContainer"></div>
+
+  <!-- ============ SECTION 1: THE QUESTION ============ -->
+  <section class="section question-section active" id="questionSection">
+    <div class="question-card">
+      <div class="envelope" id="envelope">
+        <div class="envelope-flap"></div>
+        <div class="envelope-body">
+          <div class="letter-pull" id="letterPull">
+            <span>Click to open</span>
+          </div>
+        </div>
+      </div>
+      <div class="question-content hidden" id="questionContent">
+        <div class="heart-icon-large">
+          <svg viewBox="0 0 100 100">
+            <defs>
+              <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ff6b35"/>
+                <stop offset="100%" style="stop-color:#e63946"/>
+              </linearGradient>
+            </defs>
+            <path d="M50 88 C25 65, 0 50, 0 30 C0 12, 12 0, 28 0 C38 0, 46 6, 50 14 C54 6, 62 0, 72 0 C88 0, 100 12, 100 30 C100 50, 75 65, 50 88Z" fill="url(#heartGrad)"/>
+          </svg>
+        </div>
+        <h1 class="question-title">Will you be my Valentine?</h1>
+        <p class="question-subtitle">I have something special for you...</p>
+        <div class="buttons-container">
+          <button class="btn btn-yes" id="btnYes">Yes!</button>
+          <button class="btn btn-no" id="btnNo">No</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 2: CELEBRATION TRANSITION ============ -->
+  <section class="section celebration-section" id="celebrationSection">
+    <div class="celebration-content">
+      <div class="fireworks" id="fireworks"></div>
+      <h1 class="celebration-text">AYYY Thanks for saying yes</h1>
+      <div class="heartbeat-icon">
+        <svg viewBox="0 0 100 100">
+          <defs>
+            <linearGradient id="heartGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#ff9a56"/>
+              <stop offset="100%" style="stop-color:#e63946"/>
+            </linearGradient>
+          </defs>
+          <path d="M50 88 C25 65, 0 50, 0 30 C0 12, 12 0, 28 0 C38 0, 46 6, 50 14 C54 6, 62 0, 72 0 C88 0, 100 12, 100 30 C100 50, 75 65, 50 88Z" fill="url(#heartGrad2)"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 3: MAIN VALENTINE PAGE ============ -->
+  <section class="section main-section" id="mainSection">
+
+    <!-- Hero -->
+    <div class="hero">
+      <h1 class="hero-title">To you bae</h1>
+      <p class="hero-subtitle">Told you I will make you a gift, so here it is. Every pixel of this page is filled with love for you</p>
+      </div>
+    </div>
+
+    <!-- Love Letter -->
+    <div class="content-block love-letter-block" id="loveLetter">
+      <div class="section-label">A Letter For Khushu</div>
+      <div class="love-letter">
+        <div class="letter-paper">
+          <div class="letter-date">February 14th</div>
+          <p>Hello my baby,</p>
+          <p>I just wanted to let you know how much you mean to me, even if there are thousands of miles in between us, I still feel like I am home when I am on a call with you. You make me believe that there is more in the world to cherish. The way you smile, make fun of me, get angry, say some dumb shit I all love that and I can't wait to see and hear the same things when you are in front of me.</p>
+          <p>I know it's hard to not see me everyday and not get to hug me or go on cuter dates, but this will be over soon khushu I will try my best to come to India. You are one of the most beautiful things that happened to me and I want to keep you with me as long as I can.</p>
+          <p>Man I can just keep looking at you for hours and I am still overwhelmed by how good you look lmao. I am so lucky to have you bae.</p>
+          <p class="letter-closing">Your Ani,</p>
+          <p class="letter-signature">Your Valentine</p>
+          <div class="letter-kiss">XOXO</div>
+        </div>
+        <div class="wax-seal">
+          <svg viewBox="0 0 60 60">
+            <circle cx="30" cy="30" r="28" fill="#c0392b" stroke="#922b21" stroke-width="2"/>
+            <path d="M30 45 C20 35, 12 28, 12 22 C12 16, 16 12, 22 12 C26 12, 28 14, 30 18 C32 14, 34 12, 38 12 C44 12, 48 16, 48 22 C48 28, 40 35, 30 45Z" fill="#e74c3c"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- She's So Beautiful — Her Photos -->
+    <div class="content-block beautiful-block" id="beautifulSection">
+      <div class="section-label">UGHHHH!</div>
+      <h2 class="block-title">You are so beautiful</h2>
+      <div class="photo-grid">
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="Her/IMG_8963.JPG" alt="">
+          </div>
+        </div>
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="Her/IMG_8979.PNG" alt="">
+          </div>
+        </div>
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="Her/7785b78a-95db-4251-9de6-ecd197afa8dd.jpg" alt="">
+          </div>
+        </div>
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="Her/13385902-5475-4fdd-be41-0924ff3aa9aa.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Memories — Photos Together -->
+    <div class="content-block memories-block" id="memoriesSection">
+      <div class="section-label">I want you in my arms again</div>
+      <h2 class="block-title">Moments I Treasure With You</h2>
+      <div class="photo-grid">
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="us/IMG_8955.JPG" alt="">
+          </div>
+        </div>
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="us/IMG_8956.JPG" alt="">
+          </div>
+        </div>
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="us/IMG_8957.JPG" alt="">
+          </div>
+        </div>
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="us/IMG_8958.JPG" alt="">
+          </div>
+        </div>
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="us/IMG_8959.JPG" alt="">
+          </div>
+        </div>
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="us/IMG_8960.JPG" alt="">
+          </div>
+        </div>
+        <div class="photo-card">
+          <div class="photo-slot">
+            <img src="us/IMG_8961.JPG" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Virtual Gift Box -->
+    <div class="content-block gift-block" id="giftBox">
+      <div class="section-label">I know you are not a fan of gifts</div>
+      <h2 class="block-title">But here are some coupons for you :D</h2>
+      <div class="gift-container">
+        <div class="gift" id="gift">
+          <div class="gift-box-top" id="giftTop">
+            <div class="gift-ribbon-horizontal"></div>
+            <div class="gift-bow">
+              <div class="bow-loop bow-left"></div>
+              <div class="bow-loop bow-right"></div>
+              <div class="bow-knot"></div>
+            </div>
+          </div>
+          <div class="gift-box-bottom">
+            <div class="gift-ribbon-vertical"></div>
+          </div>
+          <div class="gift-tag">Click to unwrap!</div>
+        </div>
+        <div class="gift-reveal hidden" id="giftReveal">
+          <div class="gift-sparkles"></div>
+          <div class="virtual-coupon">
+            <h3>Love Coupons</h3>
+            <div class="coupon-stack">
+              <div class="coupon">
+                <span class="coupon-icon">🎬</span>
+                <span class="coupon-text">One Virtual Movie Night</span>
+              </div>
+              <div class="coupon">
+                <span class="coupon-icon">💌</span>
+                <span class="coupon-text">One Extra Long Love Letter</span>
+              </div>
+              <div class="coupon">
+                <span class="coupon-icon">🌙</span>
+                <span class="coupon-text">One Fall-Asleep-On-Call Night</span>
+              </div>
+              <div class="coupon">
+                <span class="coupon-icon">👅</span>
+                <span class="coupon-text">One freaky night with you</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Distance Counter -->
+    <div class="content-block distance-block" id="distance">
+      <div class="section-label">The Space Between</div>
+      <h2 class="block-title">Distance Means Nothing</h2>
+      <div class="distance-visual">
+        <div class="person person-left">
+          <div class="person-heart"></div>
+          <span>Me</span>
+        </div>
+        <div class="connection-line">
+          <div class="traveling-heart"></div>
+          <div class="line-dashes"></div>
+        </div>
+        <div class="person person-right">
+          <div class="person-heart"></div>
+          <span>Khushu</span>
+        </div>
+      </div>
+      <p class="distance-quote">"I carry your heart with me (I carry it in my heart)"</p>
+      <p class="distance-author">— E.E. Cummings</p>
+    </div>
+
+    <!-- Final Message / Promise -->
+    <div class="content-block promise-block" id="promise">
+      <div class="final-heart-container">
+        <div class="final-heart">
+          <svg viewBox="0 0 100 100">
+            <defs>
+              <linearGradient id="heartGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ff9a56"/>
+                <stop offset="50%" style="stop-color:#e63946"/>
+                <stop offset="100%" style="stop-color:#c2185b"/>
+              </linearGradient>
+            </defs>
+            <path d="M50 88 C25 65, 0 50, 0 30 C0 12, 12 0, 28 0 C38 0, 46 6, 50 14 C54 6, 62 0, 72 0 C88 0, 100 12, 100 30 C100 50, 75 65, 50 88Z" fill="url(#heartGrad3)"/>
+          </svg>
+        </div>
+      </div>
+      <h2 class="promise-title">My Promise To You, Khushu</h2>
+      <p class="promise-text">No matter how many miles are between us, my love for you only grows stronger with each passing day. One day, the distance will be just a memory — but my love for you will last forever.</p>
+      <div class="infinity-symbol">
+        <svg viewBox="0 0 200 80" class="infinity-svg">
+          <path d="M100 40 C100 20, 130 0, 160 20 C190 40, 190 60, 160 60 C130 60, 100 60, 100 40 C100 20, 70 0, 40 20 C10 40, 10 60, 40 60 C70 60, 100 60, 100 40Z" fill="none" stroke="currentColor" stroke-width="3"/>
+        </svg>
+      </div>
+      <p class="promise-footer">Happy Valentine's Day, Khushu</p>
+      <p class="promise-year">2026</p>
+    </div>
+
+    <!-- Music Toggle -->
+    <button class="music-toggle" id="musicToggle" title="Toggle background music hint">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M9 18V5l12-2v13"/>
+        <circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+      </svg>
+    </button>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
